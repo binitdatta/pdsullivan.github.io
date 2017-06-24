@@ -7,7 +7,7 @@ angular.module('app', [])
 
         $scope.userLoaded = false;
 
-        $scope.username = "pdsullivan";
+        $scope.username = "binitdatta";
 
         $http.get("https://api.github.com/users/" + $scope.username)
             .success(function (data) {
